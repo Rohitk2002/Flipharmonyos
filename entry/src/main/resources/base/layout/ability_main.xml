@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:padding="60vp">
+
+    <DirectionalLayout
+        ohos:id="$+id:belowLayout"
+        ohos:width="match_parent"
+        ohos:height="392vp"
+        ohos:margin="4vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="  0. The Recruiting Game \n  1. Red Light, Green Light \n  2. Sugar Honeycombs \n  3. Tug of War \n  4. Marbles
+\n  5. Hopscotch \n  6. Squid Game"
+            ohos:text_color="$ohos:color:id_color_activated_end_dark"
+            ohos:text_size="20px" />
+
+    </DirectionalLayout>
+
+    <it.gmariotti.cardslib.library.view.CardView
+        ohos:id="$+id:aboveLayout"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:focus_border_radius="4vp">
+
+        <Image
+            ohos:width="match_parent"
+            ohos:height="400vp"
+            ohos:scale_mode="clip_center"
+            ohos:image_src="$media:squid" />
+
+    </it.gmariotti.cardslib.library.view.CardView>
+
+    <it.gmariotti.cardslib.library.view.CardView
+        ohos:id="$+id:btn"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_margin="120vp"
+        ohos:top_margin="370vp"
+        ohos:min_width="40vp"
+        ohos:min_height="40vp"
+        ohos:focus_border_radius="20vp">
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:layout_alignment="center"
+            ohos:text="+"
+            ohos:text_color="$color:color_black"
+            ohos:text_size="20vp"
+            ohos:text_font="$string:app_name" />
+
+    </it.gmariotti.cardslib.library.view.CardView>
+
+</DependentLayout>
